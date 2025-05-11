@@ -1,6 +1,4 @@
-[build]
-  publish = "dist/brainbridge"
-  command = "npm install && ng build --configuration=production"
+
 
 [[redirects]]
   from = "/*"
