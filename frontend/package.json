@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "dev:ssr": "ng run frontend:serve-ssr",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:frontend": "node dist/frontend/server/server.mjs"
